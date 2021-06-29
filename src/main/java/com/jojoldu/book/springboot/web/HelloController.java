@@ -6,6 +6,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping("/hello")
     public String hello(){
-        return "컴퓨터 졸라게 느리게";
+        return "hello";
     }
 }
